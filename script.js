@@ -89,7 +89,7 @@ function checkTodo(id) {
 
   if (todoToToggle) {
     todoToToggle.checked = !todoToToggle.checked;
-    console.log(`Змінено статус справи з ID: ${id}. Поточний список:`, todos);
+    console.log(`Changed status case ID: ${id}. Current list: `, todos);
   }
   saveTodos();
   render();
